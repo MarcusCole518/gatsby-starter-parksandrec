@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-  console.log(jQuery);
+  console.log(jQuery().jquery);
 
   return (
     <Layout location={location} title={siteTitle}>
