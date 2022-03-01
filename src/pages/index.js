@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-  console.log(jQuery().jquery);
+  console.log(jQuery.fn.jquery);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -89,4 +89,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
