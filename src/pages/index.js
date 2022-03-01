@@ -22,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-console.log(React.version)
+console.log(React.version);
 
   return (
     <Layout location={location} title={siteTitle}>
