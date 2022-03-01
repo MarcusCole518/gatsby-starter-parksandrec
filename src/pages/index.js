@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import jQuery from "jquery";
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -24,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-  console.log(jQuery.fn.jquery);
+console.log(React.version)
 
   return (
     <Layout location={location} title={siteTitle}>
