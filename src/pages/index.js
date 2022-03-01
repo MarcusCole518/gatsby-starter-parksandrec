@@ -22,6 +22,7 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  // Testing version update
 console.log(React.version);
 
   return (
