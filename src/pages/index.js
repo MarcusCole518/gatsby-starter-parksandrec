@@ -22,9 +22,6 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-  // Testing version update
-console.log(React.version);
-
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
